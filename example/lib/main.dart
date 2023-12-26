@@ -18,19 +18,20 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const GradientText(
-            Text("Linear Gradient Title", style: TextStyle(fontSize: 30)),
-            type: Type.linear,
-            colors: [Colors.red, Colors.green, Colors.black],
-          )
-        ),
+            backgroundColor: Colors.grey,
+            title: const GradientText(
+              Text("Linear Gradient Title", style: TextStyle(fontSize: 24)),
+              type: Type.linear,
+              colors: [Colors.red, Colors.yellow, Colors.purple, Colors.black],
+            )),
         body: const Center(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               GradientText(
-                Text("Default Gradient Text", style: TextStyle(fontSize: 30)),
-                colors: [Colors.red, Colors.green, Colors.black],
-              ),
+                  Text("Default Gradient Text", style: TextStyle(fontSize: 30)),
+                  colors: [Colors.red, Colors.green, Colors.black],
+                  stops: [0, 0.5, 1]),
               GradientText(
                 Text("Radial Gradient Text", style: TextStyle(fontSize: 30)),
                 type: Type.radial,

@@ -1,0 +1,24 @@
+name: flutter_gradient_text_example
+description: "Demonstrates how to use the flutter_gradient_text plugin."
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_gradient_text:
+    path: ../
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.3
+
+flutter:
+  uses-material-design: true

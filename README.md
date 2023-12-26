@@ -1,7 +1,7 @@
 # flutter_gradient_text
 
 A Flutter package for making gradient colored text effect with Text widget.
-![image](https://github.com/trdevendran/flutter_gradient_text/assets/12223179/c6265998-6711-4d38-852b-93c2c25c9e2b)
+![Screenshot_20231226_164923](https://github.com/trdevendran/flutter_gradient_text/assets/12223179/97d357c7-381e-4731-8fd6-e5d6a5f4ccc7)
 
 ## Key features
 - Three types of the gradient effect can apply with this this package as below
